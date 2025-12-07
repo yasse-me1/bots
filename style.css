@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+}
+
+/* HERO */
+.hero {
+    background: #ff6d2e;
+    color: white;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero h1 {
+    margin: 0 0 10px;
+}
+
+.hero p {
+    margin: 0 0 20px;
+}
+
+.buttons button {
+    background: white;
+    border: none;
+    padding: 10px 14px;
+    margin-right: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.hero-img img {
+    width: 300px;
+}
+
+/* ANIMALS */
+.animals {
+    padding: 30px;
+}
+
+.animals h2 {
+    margin-bottom: 20px;
+}
+
+.card-box {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    width: 200px;
+    padding: 12px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.price {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #ff6d2e;
+}
